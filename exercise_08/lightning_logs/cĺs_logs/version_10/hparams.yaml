@@ -1,0 +1,7 @@
+batch_size: 200
+lr: 5.0e-05
+nn_hidden_layer1: 1000
+nn_hidden_layer2: 800
+nn_hidden_layer3: 600
+num_classes: 10
+weight_decay: 0.001

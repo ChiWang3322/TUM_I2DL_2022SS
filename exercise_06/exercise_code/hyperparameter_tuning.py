@@ -115,7 +115,7 @@ def findBestConfig(train_loader, val_loader, configs, EPOCHS, PATIENCE,
             
     print("\nSearch done. Best Val Loss = {}".format(best_val))
     print("Best Config:", best_config)
-    return best_model, list(zip(configs, results))
+    return best_model, list(zip(configs, results)), best_config
         
 
 def random_search_spaces_to_config(random_search_spaces):
